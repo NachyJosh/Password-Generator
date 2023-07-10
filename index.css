@@ -1,0 +1,119 @@
+.container{
+    border: 1px solid blue;
+    margin: 20px;
+    line-height: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+.password-display{
+    border: 1px solid ;
+    height: 40px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px; 
+}
+#btn-copy{
+    background-image: var(--gradient);
+    border: none;
+    padding: 14px 18px;
+    color: rgb(26, 60, 59);
+    border-radius: 25px;
+    margin-left: 160px;
+    position: absolute;
+    right: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgba(236, 242, 242, 0.877);
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.main{
+    border: 1px solid #c7c3c3;
+    height: 500px; 
+    width: 800px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10px;
+   
+}
+.aside{
+    width: 300px;
+    height: 500px;
+    /* background-image: url("images/lady1.jpg"); */
+    
+    
+
+}
+.aside-right{
+    text-align: center;
+    padding: 20px;
+}
+
+.userinput{
+    font-size: 30px;
+}
+.user{
+    height: 35px;
+    width: 300px;
+    margin:5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    
+}
+.underline{
+    border: 1px solid black
+}
+.sgn-btn{
+    width: 200px;
+    margin: 50px 10px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.Gp{
+    width:250px;
+    border: 1px solid brown;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.genpass{
+    display: flex;
+    justify-content: space-around;
+}
+.Gp1{
+    border:1px solid brown;
+    border-radius: 10px;
+}
+#dialog{
+    display : flex;
+    z-index: 1000;
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+
+}

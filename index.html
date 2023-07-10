@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "Stylesheet" href = "index.css">
+</head>
+<body>
+    <div class = "container">
+        <h2>Password Generator</h2>
+        <div class = "password-display"><button id = "btn-copy">Copy</button></div>
+        <label>Password length (4-20)</label>
+        <input type = "range" id = "length" min = "4" max ="20" step ="1" />
+        <span class = "length-result"></span><br>
+        <label>Include numbers</label>
+        <input type = "checkbox" /><br>
+        <label>Include symbols</label>
+        <input type = "checkbox" /><br>
+        <button class = "pass-gen-btn">Generate</button>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <p id = "test-el"></p>
+    <div class = "main">
+        <div class = "aside"><img src = "images/lady1.jpg" height = "100%" width = "100%" class = "img-"></div>
+        <div class = "aside-right">
+            <h1>Generate a Random Password</h1>
+            <p class = "underline"></p>
+            <p class = "userinput">Username <input type = "textboxes" class ="user" id ="user-input">
+            <p class = "userinput">Password <input type = "password" class ="user" id ="user-pass">
+            <p>Mark to include symbols and numbers <input type = "checkbox" class = "checkbox" id = "chkbtn"></p>
+            <div class = "genpass">
+                <button class = "Gp1" onclick = "passGen()">Generate Password </button>
+                <div class = "Gp" id = "pass-gen"></div>
+            </div>
+            <button class = "sgn-btn" onclick = "signUp()">Sign Up</button>
+            <button class = "sgn-btn" onclick = "signIn()">Sign In</button>
+            <!-- <dialog open ><input id ="myUserName" /></dialog> -->
+
+        </div>
+        </div>
+    </div>
+ <script src = "index.js"></script>   
+</body>
+</html>
